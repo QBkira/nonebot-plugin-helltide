@@ -8,7 +8,7 @@
 
 # nonebot-plugin-helltide
 
-_✨ NoneBot 插件简单描述 ✨_
+_✨ 一个Diablo4的helltide和世界boss的提醒小助手 ✨_
 
 
 <a href="./LICENSE">
