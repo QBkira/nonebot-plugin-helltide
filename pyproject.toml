@@ -14,7 +14,6 @@ plugins = ["nonebot_plugin_helltide"]
 plugin_dirs = []
 builtin_plugins = []
 
-
 [project]
 name = "nonebot-plugin-helltide"
 version = "0.1.2"
@@ -35,3 +34,8 @@ dependencies = [
 requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.urls]
+homepage = "https://github.com/QBkira/nonebot-plugin-helltide"
+repository = "https://github.com/QBkira/nonebot-plugin-helltide/tree/master/nonebot_plugin_helltide"
+documentation = "https://github.com/QBkira/nonebot-plugin-helltide#readme"
