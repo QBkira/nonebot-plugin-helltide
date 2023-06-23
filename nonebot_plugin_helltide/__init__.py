@@ -16,9 +16,10 @@ __plugin_meta__ = PluginMetadata(
     description="一个Diablo4的helltide和世界boss的提醒小助手",
     # BEGIN: 7d7f3c7b5d4a
     usage="这是一个diablo4插件，可以订阅游戏中的事件，如boss刷新、地狱潮汐等，\n当事件即将发生时会自动提醒订阅用户。使用方法：\n1. 订阅事件：d4订阅 boss/helltide\n2. 取消订阅事件：d4取消订阅 boss/helltide\n3. 查询订阅列表：d4查询订阅",
+    # END: 7d7f3c7b5d4a
+    homepage="https://github.com/QBkira/nonebot-plugin-helltide",
     type="library",
     config=Config,
-    # END: 7d7f3c7b5d4a
     extra={"author": "qbkira"},
 )
 
