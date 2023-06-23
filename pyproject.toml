@@ -16,7 +16,7 @@ builtin_plugins = []
 
 [project]
 name = "nonebot-plugin-helltide"
-version = "0.1.3"
+version = "0.1.4"
 description = "Diablo 4 Helltide Event Tracker work with nonebot2"
 authors = [
     {name = "qbkira", email = "qbuouo@gmail.com"},
