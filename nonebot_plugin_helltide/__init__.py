@@ -67,7 +67,7 @@ from nonebot_plugin_apscheduler import scheduler
 # Add a dictionary to store the notice status of each event
 notice_status = {}
 
-@scheduler.scheduled_job("interval", minutes=1)
+@scheduler.scheduled_job("interval", minutes=my_config.event_check_interval)
 async def check_event():
     url = my_config.url_api
     try:
