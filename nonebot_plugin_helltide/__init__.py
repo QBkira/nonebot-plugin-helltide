@@ -20,6 +20,7 @@ __plugin_meta__ = PluginMetadata(
     homepage="https://github.com/QBkira/nonebot-plugin-helltide",
     type="library",
     config=Config,
+    supported_adapters={"~onebot.v11"},
     extra={"author": "qbkira"},
 )
 
